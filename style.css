@@ -1,0 +1,106 @@
+h1, h2, a { 
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	background-color: #F7FFF9;
+	text-align: center;
+
+}
+
+h1{ 
+color: black;
+font-weight: 300;
+}
+
+h2{
+color:(180,180,180);
+ }
+
+ a{
+text-decoration: none;
+  }
+
+.card-white{
+	background-color: white;
+	padding:40px;
+	margin:30px 0px;
+	border-radius:4px;
+	box-shadow:0px 10px 30px #89B6A5;
+	}
+
+	.container{
+		width:700px;
+		margin:40px auto;
+		}
+
+		.img-circle{
+			width:200px;
+			height:200px;
+			border-radius: 50%;
+			}
+
+.btn-purple {
+	background-color:#6A706E ;
+	padding: 15px 20px;
+	color: white;
+	border-radius: 4px;
+	font-size: 16px;
+    }
+
+    .btn-purple:hover {
+    	background-color: #7E78D2;
+    	}
+
+    .list-inline
+    { list-style: none;
+    	padding: 0px;
+   }
+
+
+    .list-inline li
+    { display:inline;
+   }
+
+
+    .list-inline i 
+    { color: rgb(220,220,220);
+    	font-size:30px;
+   }
+
+
+
+    .list-inline i:hover
+    { color:#7E78D2;
+   }
+
+
+@media (max-width:900px) {
+	.container { 
+		width: 700px;
+		 }
+	  }
+
+@media (max-width:700px) {
+	.container { 
+		width: 500px;
+		 }
+	  }
+
+	  @media (max-width:500px) {
+	.container { 
+		width: 200px;
+		 }
+	  }
+
+/*900 px è un computer e 700 px è un tablet e 500 px è il telefono*/
+
+
+
+
+
+
+
+
